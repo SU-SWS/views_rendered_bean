@@ -1,0 +1,10 @@
+name = Views Rendered Bean
+description = A views plugin that allows site administrators to create views of beans rendered by the bean view mode.
+core = 7.x
+package = Views
+version = 7.x-1.0-dev
+project = views_rendered_bean
+dependencies[] = entity
+dependencies[] = views
+dependencies[] = bean
+files[] = views/views_rendered_bean.plugin.inc
